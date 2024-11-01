@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1360px;
+    margin: auto;
+    background: #E1D4C9;
+    color: #403F3D;
+    font-family: Inter;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .logo {
+    background-image: url(../assets/logo.svg);
+    width: 100px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .links {
+    display: flex;
+    gap: 40px;
+}
+
+header .links p,
+.menu p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header .menu {
+    display: flex;
+    gap: 10px;
+}
+
+header .coffe-cup {
+    background-image: url(../assets/coffee-cup.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .menu {
+    background-image: url(../assets/header.svg);
+    width: 100%;
+    height: 644px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+main .menu h1 {
+    color: #E1D4C9;
+    font-size: 72px;
+    font-weight: 600;
+    padding: 100px 0 0 100px;
+}
+
+main .menu span {
+    color: #B0907A;
+}
+
+main .menu p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #E1D4C9;
+    padding: 40px 0 0 100px;
+}
+
+main .button-menu {
+    background: #E1D4C9;
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    border-width: 0;
+    margin: 40px 0 0 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .button-menu:hover {
+    background: #B0907A;
+}
+
+main .choice {
+    margin-top: 100px;
+}
+
+main .choice h1 {
+    color: #403F3D;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+main .choice span {
+    color: #B0907A;
+}
+
+main .coffee-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+main .arrow-left {
+    background-image: url('../assets/left-arrow.svg');
+    width: 60px;
+    height: 60px;
+}
+
+main .arrow-left:hover {
+    background-image: url('../assets/arrow-hover.svg');
+    transform: scaleX(-1);
+}
+
+main .coffee {
+    background-image: url('../assets/coffee.svg');
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .arrow-right {
+    background-image: url('../assets/right-arrow.svg');
+    width: 60px;
+    height: 60px;
+}
+
+main .arrow-right:hover {
+    background-image: url('../assets/arrow-hover.svg');
+}
+
+main .description {
+    text-align: center;
+}
+
+main .description h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+main .description p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+main .description .swipe {
+    background-image: url('../assets/swipe.svg');
+    width: 144px;
+    height: 4px;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+
+main .intro-section h1 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    color: #403F3D;
+    text-align: center;
+    margin-top: 100px;
+}
+
+main .intro-section span {
+    color: #B0907A;
+}
+
+main .intro-section {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+main .intro-section .photos {
+    position: relative;
+    height: 1200px;
+}
+
+main .intro-section .photos .img1,
+main .intro-section .photos .img2,
+main .intro-section .photos .img3,
+main .intro-section .photos .img4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+main .intro-section .photos .img1 {
+    background-image: url('../assets/img1.svg');
+    width: 660px;
+    height: 720px;
+    top: 40px;
+}
+
+main .intro-section .photos .img2 {
+    background-image: url('../assets/img2.svg');
+    width: 660px;
+    height: 430px;
+    top: 40px;
+    left: 700px;
+}
+
+main .intro-section .photos .img3 {
+    background-image: url('../assets/img3.svg');
+    width: 660px;
+    height: 430px;
+    top: 790px;
+}
+
+main .intro-section .photos .img4 {
+    background-image: url('../assets/img4.svg');
+    width: 660px;
+    height: 720px;
+    top: 500px;
+    left: 700px;
+}
+
+main .download-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+main .download-section .phone-download {
+    background-image: url('../assets/phone.svg');
+    width: 630px;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .download-section .download-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #403F3D;
+    font-style: italic;
+    margin-top: 140px;
+}
+
+main .download-section .download-content span {
+    color: #B0907A;
+}
+
+main .download-section .download-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #403F3D;
+    margin-top: 40px;
+}
+
+main .download-section .button-download {
+    display: flex;
+    margin-top: 40px;
+}
+
+main .download-section .button-download .app-store {
+    background-image: url('../assets/app-store.svg');
+    width: 200px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+main .download-section .button-download .google-play {
+    background-image: url('../assets/google-play.svg');
+    width: 200px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: #665F55;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+
+footer .intro-text h1 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    color: #B0907A;
+    margin-top: 100px;
+}
+
+footer .intro-text span {
+    color: #E1D4C9;
+}
+
+footer .intro-text .social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+footer .intro-text .social-icons .twitter,
+.inst,
+.facebook {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .intro-text .social-icons .twitter {
+    background-image: url('../assets/twitter.svg');
+}
+
+footer .intro-text .social-icons .inst {
+    background-image: url('../assets/inst.svg');
+}
+
+footer .intro-text .social-icons .facebook {
+    background-image: url('../assets/facebook.svg');
+}
+
+footer .contact-info h6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #E1D4C9;
+    margin: 132px 0 40px 0;
+}
+
+footer .contact-info .contact {
+    display: flex;
+}
+
+footer .contact-info .contact:not(:first-of-type) {
+margin-top: 16px;
+}
+
+footer .contact-info .contact p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #E1D4C9;
+}
+
+footer .contact-info .contact .location,
+.phone-number,
+.time {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+footer .contact-info .contact .location {
+    background-image: url('../assets/location.svg');
+}
+
+footer .contact-info .contact .phone-number {
+    background-image: url('../assets/number.svg');
+}
+
+footer .contact-info .contact .time {
+    background-image: url('../assets/clock.svg');
+}
